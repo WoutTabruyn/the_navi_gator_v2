@@ -13,6 +13,7 @@ class Streetmap extends StatefulWidget {
 //To pinch/zoom: hold ctrl
 //"updateAcquireFence: Did not find frame" error appears to be a bug in the emulator and may be ignored.
 class _StreetmapState extends State<Streetmap> {
+  //int _selectedIndex = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
