@@ -11,6 +11,10 @@ class _SettingsState extends State<Settings> {
   //int _selectedIndex = 2;
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Settings'),
+      ),
+    );
   }
 }
