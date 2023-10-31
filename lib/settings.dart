@@ -8,7 +8,6 @@ class Settings extends StatefulWidget {
 }
 
 class _SettingsState extends State<Settings> {
-  //int _selectedIndex = 2;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
